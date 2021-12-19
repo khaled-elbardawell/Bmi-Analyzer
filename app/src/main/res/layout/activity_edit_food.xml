@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditFoodActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="300dp"
+        android:layout_height="105dp"
+        android:gravity="center"
+        android:text="@string/edit_food_title_text"
+        android:textColor="@color/primary_blue_color"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/add_food_name_label"
+        android:textColor="@color/primary_blue_color"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="175dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/bg_input"
+        android:ems="10"
+        android:inputType="number|textPersonName"
+        android:text=""
+        android:textColor="@color/primary_blue_color"
+        app:layout_constraintBottom_toBottomOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_food_category_label"
+        android:textColor="@color/primary_blue_color"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <Spinner
+        android:id="@+id/et_category"
+        android:layout_width="175dp"
+        android:layout_height="28dp"
+        android:background="@drawable/bg_input"
+        android:ems="10"
+        android:entries="@array/list_category"
+        android:textColor="@color/primary_blue_color"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_category"
+        app:layout_constraintEnd_toEndOf="@+id/et_name"
+        app:layout_constraintStart_toStartOf="@+id/et_name"
+        app:layout_constraintTop_toTopOf="@+id/tv_category" />
+
+
+    <TextView
+        android:id="@+id/tv_calory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_food_calory_label"
+        android:textColor="@color/primary_blue_color"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_category"
+        app:layout_constraintTop_toBottomOf="@+id/tv_category"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <EditText
+        android:id="@+id/et_calory"
+        android:layout_width="136dp"
+        android:layout_height="33dp"
+        android:background="@drawable/bg_input"
+        android:ems="10"
+        android:inputType="number|textPersonName"
+        android:text=""
+        android:textColor="@color/primary_blue_color"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_calory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_category"
+        app:layout_constraintTop_toTopOf="@+id/tv_calory"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="col/g"
+        app:layout_constraintBottom_toBottomOf="@+id/et_calory"
+        app:layout_constraintEnd_toEndOf="@+id/et_category"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/et_calory"
+        app:layout_constraintTop_toTopOf="@+id/et_calory" />
+
+    <TextView
+        android:id="@+id/tv_calory2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_food_photo_label"
+        android:textColor="@color/primary_blue_color"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_calory"
+        app:layout_constraintTop_toBottomOf="@+id/tv_calory"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <ImageView
+        android:id="@+id/image_food"
+        android:layout_width="276dp"
+        android:layout_height="141dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="@+id/tv_calory2"
+        app:layout_constraintTop_toBottomOf="@+id/et_calory"
+        app:layout_constraintVertical_bias="0.285"
+        app:srcCompat="@drawable/bg_btn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/upload_photo"
+        android:layout_width="152dp"
+        android:layout_height="46dp"
+        android:background="@drawable/bg_btn"
+        android:text="@string/add_food_upload_photo_btn"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_calory2"
+        app:layout_constraintTop_toBottomOf="@+id/image_food"
+        app:layout_constraintVertical_bias="0.231" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn"
+        android:text="@string/add_food_save_btn"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/upload_photo"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/upload_photo"
+        app:layout_constraintTop_toTopOf="@+id/upload_photo"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

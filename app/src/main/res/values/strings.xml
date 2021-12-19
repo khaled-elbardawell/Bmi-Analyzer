@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">BMI Analyzer</string>
+
+    <!--    login activity-->
+    <string name="login_welcome_text">Welcome Back</string>
+    <string name="login_under_welcome_text">if you already have an account log in</string>
+    <string name="login_email_hint">email</string>
+    <string name="login_password_hint">password</string>
+    <string name="login_btn_login">LOG IN</string>
+    <string name="login_have_account_text">You Don\'t Have An Account?</string>
+    <string name="login_signup_text">Sign Up</string>
+
+    <!--    signup activity-->
+    <string name="signup_welcome_text">Create New Account</string>
+    <string name="signup_under_welcome_text">if you do not already have an account</string>
+    <string name="signup_name_hint">Name</string>
+    <string name="signup_email_hint">E_mail</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_re_password_hint">Re-Password</string>
+    <string name="signup_btn_login">SIGN UP</string>
+    <string name="signup_have_account_text">You Have An Account?</string>
+    <string name="signup_login_text">LOG IN</string>
+
+    <!--  info activity    -->
+    <string name="info_title_text">Complete Your Information</string>
+    <string name="info_gender_label">Gender</string>
+    <string name="info_male_label">Male</string>
+    <string name="info_female_label">Female</string>
+    <string name="info_weight_label">Weight</string>
+    <string name="info_length_label">Length</string>
+    <string name="info_dob_label">Date Of Birth</string>
+    <string name="info_save_data_btn">Save Data</string>
+
+
+    <!--  home activity    -->
+    <string name="home_current_status_text">Current Status</string>
+    <string name="home_old_status_text">Old Status</string>
+    <string name="home_add_food_btn">Add Food</string>
+    <string name="home_add_record_btn">Add Record</string>
+    <string name="home_view_food_btn">View Food</string>
+    <string name="home_logout_btn">Logout</string>
+
+
+    <!--  New Record activity    -->
+    <string name="new_record_title_text">New Record</string>
+    <string name="new_record_weight_label">Weight</string>
+    <string name="new_record_length_label">Length</string>
+    <string name="new_record_date_label">Date</string>
+    <string name="new_record_time_label">Time</string>
+    <string name="new_record_save_data_btn">Save Data</string>
+
+
+    <!--  Add And Edit Food activity    -->
+    <string name="add_food_title_text">Add Food Details</string>
+    <string name="edit_food_title_text">Edit Food Details</string>
+    <string name="add_food_name_label">Name</string>
+    <string name="add_food_category_label">Category</string>
+    <string name="add_food_calory_label">Calory</string>
+    <string name="add_food_photo_label">Photo</string>
+    <string name="add_food_upload_photo_btn">Upload Photo</string>
+    <string name="add_food_save_btn">Save</string>
+
+    <string-array name="list_category">
+        <item>category 1</item>
+        <item>category 2</item>
+        <item>category 3</item>
+    </string-array>
+
+
+    <!--  List Food activity    -->
+    <string name="list_food_title_text">Food List</string>
+
+
+</resources>
